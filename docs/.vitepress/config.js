@@ -11,6 +11,7 @@ export default {
     logo: "/logo.svg",
     smoothScroll: true,
     lastUpdatedText: "最后更新",
+    outlineTitle: "在此页面上",
     nav: [
       { text: "指南", link: "/guide/what-is-pxt", activeMatch: "/guide/" },
       { text: "来源", link: "https://makecode.com/docs" },
