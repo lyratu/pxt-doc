@@ -10,6 +10,7 @@ export default {
   themeConfig: {
     logo: "/logo.svg",
     smoothScroll: true,
+    lastUpdatedText: "最后更新",
     nav: [
       { text: "指南", link: "/guide/what-is-pxt", activeMatch: "/guide/" },
       { text: "来源", link: "https://makecode.com/docs" },
@@ -74,7 +75,7 @@ export default {
       },
     ],
     editLink: {
-      pattern: "https://github.com/vuejs/vitepress/edit/main/docs/:path",
+      pattern: "https://github.com/tuliwen/pxt-doc/edit/main/docs/:path",
       text: "在 GitHub 上编辑此页面",
     },
     docFooter: {
