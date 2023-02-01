@@ -5,6 +5,7 @@ export default {
   base: "/pxt-doc/",
   cleanUrls: true,
   ignoreDeadLinks: true,
+  lastUpdated: true,
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
   themeConfig: {
     logo: "/logo.svg",
@@ -72,7 +73,6 @@ export default {
         items: [{ text: "UF2文件格式", link: "http://github.com/microsoft/uf2" }],
       },
     ],
-    lastUpdated: true,
     editLink: {
       pattern: "https://github.com/vuejs/vitepress/edit/main/docs/:path",
       text: "在 GitHub 上编辑此页面",
